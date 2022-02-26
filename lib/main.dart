@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark(),
         home: Scaffold(
           appBar: AppBar(title: Text('Steppers')),
-          body: Center(
+          body: const Center(
             child: Text(
               'Hello steppers!',
               style: TextStyle(
